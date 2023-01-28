@@ -1,11 +1,32 @@
+@import "scss/reset.scss";
+
 .App {
   text-align: center;
+  min-height: 100vh;
+  padding-top:50px;
+}
+
+h1{
+  font-size: 50px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+button{
+  color:#ffffff;
+  padding: 10px 15px;
+  border: 1px solid #ffffff;
+}
+
+button:hover{
+  background-color: #ffffff;
+  color:#2e2e2e;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +57,4 @@
     transform: rotate(360deg);
   }
 }
+
